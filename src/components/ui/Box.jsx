@@ -3,24 +3,22 @@ import { useInView } from "framer-motion";
 
 const FAQItem = ({ question, answer, index }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const ref = useRef(null); // Create a ref using useRef
-  const isInView = useInView(ref, { threshold: 0.5 }); // Use the ref in useInView
+  const ref = useRef(null);
+  const isInView = useInView(ref, { threshold: 0.5 });
 
   useEffect(() => {
     if (isInView && !isOpen) {
-      // Set a timer to open the FAQ item after 1000 milliseconds
       const timer = setTimeout(() => {
         setIsOpen(true);
       }, 1000);
 
-      // Cleanup the timer if the component is unmounted
       return () => clearTimeout(timer);
     }
-  }, [isInView, isOpen]);
+  }, [isInView]);
 
   return (
     <div
-      ref={ref} // Attach the ref to the element
+      ref={ref}
       className="w-full md:w-[90%] min-h-max h-fit float-right flex flex-col border-[1px] border-white relative"
     >
       <div className="--box w-2 aspect-square bg-white absolute -bottom-1 -right-1"></div>

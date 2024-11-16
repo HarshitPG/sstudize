@@ -36,8 +36,8 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className=" w-full dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative ">
-      <div className="z-10 absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+    <div className=" w-full bg-black bg-dot-white/[0.2]  relative ">
+      <div className="z-10 absolute pointer-events-none inset-0 flex items-center justify-center bg-black  [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
       <div className="px-6  h-screen w-full min-w-screen min-h-screen md:h-screen md:max-h-screen  lg:grid lg:grid-cols-[60%,40%] grid-rows-1 gap-4 grid grid-cols-1 ">
         <div className=" text-[#97b8ff] h-full flex flex-col justify-center">
           <TypewriterEffect
@@ -64,7 +64,7 @@ const Hero = () => {
               Revolutionizing Education with Dynamic Visuals
             </h3>
             <p
-              className={`md:text-lg text-smpb-4 font-spaceGrotesk-light my-4  text-white `}
+              className={`md:text-lg text-smpb-4 font-spaceGrotesk-light my-4  text-white  `}
             >
               Engage your students with interactive learning experiences that
               make knowledge come alive.

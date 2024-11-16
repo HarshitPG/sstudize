@@ -19,7 +19,7 @@ const About9 = () => {
           <HoverBorderGradient
             containerClassName="rounded-none"
             as="button"
-            className="bg-black md:text-2xl text-xl  font-spaceGrotesk-semibold  text-black  flex items-center space-x-2"
+            className="bg-black md:text-2xl text-xl  font-spaceGrotesk-semibold  text-white  flex items-center space-x-2"
           >
             <span>Sign Up Now</span>
           </HoverBorderGradient>

@@ -2,7 +2,7 @@ import { HoverEffect } from "../components/ui/Card-hover-effect";
 
 const About5 = () => {
   return (
-    <div className="min-h-screen max-h-auto flex-row justify-center items-center  dark:bg-black px-4 ">
+    <div className="min-h-screen max-h-auto flex-row justify-center items-center  bg-black px-4 ">
       <div className=" pt-[10%] md:text-5xl text-3xl  font-spaceGrotesk-bold md:mb-4  flex items-center justify-center text-[#97b8ff] ">
         <h1>Interactive Lesson Plans</h1>
       </div>

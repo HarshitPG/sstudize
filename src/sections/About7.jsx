@@ -4,7 +4,7 @@ import { Reveal } from "../components/ui/Reveal";
 
 const About7 = () => {
   return (
-    <div className=" w-full  dark:bg-black relative flex items-center justify-center">
+    <div className=" w-full  bg-black relative flex items-center justify-center">
       <div className=" h-screen p-4 w-full min-w-screen min-h-screen md:h-screen md:max-h-screen justify-center items-center lg:grid lg:grid-cols-[60%,40%] grid-rows-1 grid grid-cols-1 gap-4 align-self-center">
         <div className=" p-8 overflow-x-hidden scroll-none flex flex-col gap-4 align-self-center  h-full ">
           <div className="text-[#97b8ff]  md:text-6xl text-4xl flex justify-center items-center font-spaceGrotesk-bold ">

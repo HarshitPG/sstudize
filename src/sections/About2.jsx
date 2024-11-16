@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const About2 = () => {
   return (
-    <div className="  min-h-screen w-full  dark:bg-black relative flex items-center justify-center">
+    <div className="  min-h-screen w-full  bg-black relative flex items-center justify-center">
       <div className="  min-h-screen p-4 w-full min-w-screenmd:h-screen md:max-h-screen justify-center items-center lg:grid lg:grid-cols-[40%,60%] grid-rows-1 grid grid-cols-1 gap-4 align-self-center">
         <div className=" hidden lg:flex ">
           <div className=" hidden lg:flex justify-center items-center">

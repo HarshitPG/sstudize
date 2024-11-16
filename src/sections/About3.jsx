@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const About3 = () => {
   return (
     <div className=" w-full  bg-black relative flex items-center justify-center">
-      <div className=" min-h-screen p-4 w-full min-w-screen  md:h-screen md:max-h-screen justify-center items-centerlg:grid lg:grid-cols-[60%,40%] grid-rows-1 gap-4 grid grid-cols-1 align-self-center">
+      <div className=" max-h-auto  min-h-screen p-4 w-full min-w-screen  md:h-screen md:max-h-screen justify-center items-centerlg:grid lg:grid-cols-[60%,40%] grid-rows-1 gap-4 grid grid-cols-1 align-self-center">
         <div className=" p-8 overflow-x-hidden scroll-none grid grid-cols-1 grid-rows-4 align-self-center  h-full ">
           <div className="text-[#97b8ff] md:text-6xl text-4xl  font-spaceGrotesk-bold ">
             <h3>Seamless Transitions for Smooth Navigation</h3>

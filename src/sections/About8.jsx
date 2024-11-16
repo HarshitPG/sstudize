@@ -2,7 +2,7 @@ import { HoverEffect } from "../components/ui/Card-hover-effect";
 
 const About8 = () => {
   return (
-    <div className=" h-screen flex flex-col justify-center items-center bg-black ">
+    <div className="max-h-auto  h-screen flex flex-col justify-center items-center bg-black ">
       <div className=" h-1/4 px-4 text-[#97b8ff]  md:text-6xl text-4xl flex justify-center items-center font-spaceGrotesk-bold  ">
         <h1>Unleash the Power of Gradients</h1>
       </div>

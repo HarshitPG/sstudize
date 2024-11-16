@@ -5,7 +5,7 @@ import { Reveal } from "../components/ui/Reveal";
 const About6 = () => {
   return (
     <div className=" w-full  bg-black relative flex items-center justify-center">
-      <div className=" h-screen p-4 w-full min-w-screen min-h-screen md:h-screen md:max-h-screen justify-center items-center lg:grid lg:grid-cols-[40%,60%] grid-rows-1 grid grid-cols-1 gap-4 align-self-center">
+      <div className=" max-h-auto  h-screen p-4 w-full min-w-screen min-h-screen md:h-screen md:max-h-screen justify-center items-center lg:grid lg:grid-cols-[40%,60%] grid-rows-1 grid grid-cols-1 gap-4 align-self-center">
         <div className=" hidden lg:flex ">
           <div className=" hidden lg:flex justify-center items-center">
             <motion.div

@@ -4,7 +4,7 @@ import FAQItem from "../components/ui/Box";
 
 const About4 = () => {
   return (
-    <div className="  min-h-screen w-full  bg-black relative flex items-center justify-center">
+    <div className="  max-h-auto  min-h-screen w-full  bg-black relative flex items-center justify-center">
       <div className=" h-auto p-4 w-full min-w-screen min-h-screen md:h-screen md:max-h-screen justify-center items-center lg:grid lg:grid-cols-[40%,60%] grid-rows-1 gap-4 grid grid-cols-1 align-self-center">
         <div className=" hidden lg:flex ">
           <div className=" hidden lg:flex justify-center items-center">

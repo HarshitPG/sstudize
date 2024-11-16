@@ -6,7 +6,7 @@ import {
 
 const About = () => {
   return (
-    <div className=" h-screen max-h-auto bg-black ">
+    <div className="max-h-auto  h-screen max-h-auto bg-black ">
       <div className="p-2 md:pt-[10%] md:text-6xl text-4xl font-spaceGrotesk-bold mb-4 flex items-center justify-center text-[#97b8ff] ">
         <h1>Unleash the Power of Gradients</h1>
       </div>

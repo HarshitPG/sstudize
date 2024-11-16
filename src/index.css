@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+}
+
+.react-typewriter-pointer {
+  background-color: #97b8ff !important;
+}
+
+@font-face {
+  font-family: "SpaceGrotesk-Bold";
+  src: url("./assets/fonts/spacegrotesk-bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "SpaceGrotesk-SemiBold";
+  src: url("./assets/fonts/spacegrotesk-semibold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "SpaceGrotesk-Regular";
+  src: url("./assets/fonts/spacegrotesk-regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "SpaceGrotesk-Light";
+  src: url("./assets/fonts/spacegrotesk-light.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "SpaceGrotesk-Medium";
+  src: url("./assets/fonts/spacegrotesk-medium.otf") format("truetype");
+}
+
+#imageContainer > * {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+}

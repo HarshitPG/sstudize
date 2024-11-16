@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 const About2 = () => {
   return (
-    <div className=" max-h-auto  min-h-screen w-full  bg-black relative flex items-center justify-center">
-      <div className="  min-h-screen p-4 w-full min-w-screenmd:h-screen md:max-h-screen justify-center items-center lg:grid lg:grid-cols-[40%,60%] grid-rows-1 grid grid-cols-1 gap-4 align-self-center">
+    <div className="  w-full  bg-black relative flex items-center justify-center">
+      <div className=" max-h-auto  min-h-screen p-4 w-full min-w-screen justify-center items-center lg:grid lg:grid-cols-[40%,60%] grid-rows-1 grid grid-cols-1 gap-4 align-self-center">
         <div className=" hidden lg:flex ">
           <div className=" hidden lg:flex justify-center items-center">
             <motion.div
@@ -23,7 +23,7 @@ const About2 = () => {
             {/* <span className=" h-screen z-0">{/* <Landing3D /> </span> */}
           </div>
         </div>
-        <div className=" p-8 overflow-x-hidden scroll-none grid grid-cols-1 grid-rows-4 gap-4 align-self-center  h-full ">
+        <div className=" p-8 overflow-x-hidden scroll-none grid grid-cols-1 grid-rows-4 gap-4 align-self-center  ">
           <div className="text-[#97b8ff] md:text-6xl text-4xl flex justify-center items-center font-spaceGrotesk-bold">
             <motion.h3
               initial={{ opacity: 0, y: 25 }}

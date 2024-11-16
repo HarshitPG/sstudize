@@ -18,7 +18,7 @@ const About4 = () => {
               viewport={{ once: true, amount: 1 }}
               className=" object-contain "
             >
-              <img src="src/assets/imges/4.jpeg" alt="" />
+              <img src="public/imges/4.jpeg" alt="" />
             </motion.div>
 
             {/* <span className=" h-screen z-0">{/* <Landing3D /> </span> */}
